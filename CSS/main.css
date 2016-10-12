@@ -1,0 +1,29 @@
+* {
+  font-family: 'Cormorant Garamond', serif; }
+
+.contents {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  margin-left: -175px;
+  width: 350px;
+  padding: 20px; }
+
+#boxes {
+  border-color: black;
+  border-style: solid;
+  border-width: 0.5px;
+  height: 125px; }
+
+.title {
+  background: #00C7D5;
+  border-bottom: 1px solid green;
+  border-top: 1px solid green;
+  margin: 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 7px; }
+
+.paraG {
+  font-size: 12px; }
