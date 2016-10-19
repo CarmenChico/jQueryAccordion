@@ -3,7 +3,7 @@
 This project involved being given an gif that would need me to write the code for the sass, the html , and the Javascript for in order to replicate it.
 
 
-![alt tag](https://raw.githubusercontent.com/CarmenChico/jQueryAccordion/image/accordian.gif)  
+![alt tag](hjQueryAccordion/image/accordian.gif)  
 
 
 
