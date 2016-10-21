@@ -3,27 +3,23 @@
    box-sizing: border-box;
  }
 
-
-
-
     .accordian {
       position:relative;
       top: 10%;
       left:50%;
       // margin-top: -50px;
-      margin-left: -175px;
+      margin-left: -250px;
       // transform:translate(-50%, -50%);
       width: 475px;
       padding: 20px;
-
-    }
+      }
 
       .para {
         overflow:hidden;
         font-size: 15px;
         max-height:450px;
         color: darkgrey;
-        transition: max-height .5s ease-in-out;
+        transition: max-height 1.0s ease-in-out;
         border-left:0.2px solid #00C6D9;
         border-right:0.2px solid #00C6D9;
         border-bottom:0.2px solid #8EDDE3;
@@ -31,39 +27,14 @@
 
       .hidePara {
         max-height: 0px;
-
-
-        // border: 5px solid red;
+        //when the transitioning, adding the max to both sections and not just the height, makes the transition work.
       }
 
-
-        // #para1{
-        //   border-left:0.2px solid #00C6D9;
-        //   border-right:0.2px solid #00C6D9;
-        //   // max-height:450px;
-        //   // transition: max-height 1.0s ease-in-out;
-        //
-        //
-        //   }
-        // #para2 {
-        //   border-left:0.2px solid #00C6D9;
-        //   border-right:0.2px solid #00C6D9;
-        //
-        //
-        //   }
-        //
-        // #para3 {
-        //   border-left:0.2px solid #00C6D9;
-        //   border-right:0.2px solid #00C6D9;
-        //   border-bottom:0.2px solid #8EDDE3;
-        //
-        //
-        //   }
         .title  {
           letter-spacing: 1px;
           background: #00C6e1;
-          // border: 1px solid #6ED4DB;
-          // border-top: 1px solid green;
+          // border: 1px solid ;
+          // border-top: 1px solid #6ED4DB;
           margin:0px;
           padding-left:22px;
           color: white;
@@ -74,19 +45,11 @@
         }
 
         .paraG {
-          padding-top: 15px;
-          padding-left: 15px;
-          padding-right: 15px;
-          padding-bottom:15px;
+          padding: 15px;
           margin:0px;
-
-
         }
 
           h1:hover {
-
             background-color:#00DBf1;
-            border-bottom-color:#00DBE9;
-            border-bottom-style:solid;
-            border-bottom-width:thin;
+            border-bottom:solid thing #00DBE9;
     }

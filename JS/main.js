@@ -52,8 +52,3 @@ function closePara(event) {
 // closePara(event);
 // document.getElementById("para1").addEventListener("click")
 $(".title").click(closePara);
-
-
-
-
-//open and close here
