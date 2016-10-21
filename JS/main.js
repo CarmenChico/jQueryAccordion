@@ -2,7 +2,7 @@
 //close everthing up
 //the first thing we did was to set it up to close ... we did that through the scss
 //
-// var bodyp = $('.accordian> paraG').hide();
+// var bodyp = $('.para').show();
 //
 // // ----shows 1 body open at start of the page---//
 // bodyp.first().show();
