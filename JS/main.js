@@ -28,7 +28,7 @@ function closePara(event) {
 
   if (event.target.id==="header1") {
     // console.log("Hey");
-    $("#para1").removeClass("hidePara");
+    $("#para1").toggleClass("hidePara");
     $("#para2").addClass("hidePara");
     $("#para3").addClass("hidePara");
 
@@ -36,13 +36,13 @@ function closePara(event) {
 
     if (event.target.id==="header2") {
       // console.log("Hey");
-      $("#para2").removeClass("hidePara");
+      $("#para2").toggleClass("hidePara");
       $("#para1").addClass("hidePara");
       $("#para3").addClass("hidePara");
     }
     if (event.target.id==="header3") {
       // console.log("Hey");
-      $("#para3").removeClass("hidePara");
+      $("#para3").toggleClass("hidePara");
       $("#para1").addClass("hidePara");
       $("#para2").addClass("hidePara");
     }
